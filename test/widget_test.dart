@@ -7,8 +7,7 @@
 
 import 'package:flutter/material.dart';
 import 'package:flutter_test/flutter_test.dart';
-
-import 'package:codepur/main.dart';
+import 'package:codepur/main.dart'; // Ensure this points to the correct path of your MyApp class
 
 void main() {
   testWidgets('Counter increments smoke test', (WidgetTester tester) async {
